@@ -1,0 +1,60 @@
+.time-units {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 130px;
+  max-width: 168px;
+}
+
+.time-unit {
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  min-width: 50px;
+}
+
+.time-unit-inactive {
+  background: lightgray;
+  color: black;
+}
+
+.time-unit-active {
+  background: black;
+  color: white;
+}
+
+.time-unit-text {
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 2px 4px;
+}
+
+.create-strategy-form {
+  width: 90%;
+}
+
+.invest-text {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.ether-input {
+  height: 20px;
+  width: 40px;
+  font-size: 12px;
+  margin-top: 2px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: lightgray;
+}
+
+.ether-input:focus {
+  border-width: 0 0 2px;
+  border-color: green;
+
+}
+
+.bat-logo {
+  height: 15px;
+}

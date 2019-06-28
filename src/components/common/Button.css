@@ -1,0 +1,33 @@
+.action-button {
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 12px;
+  max-width: 145px;
+  min-width: 124px;
+}
+
+.action-button-active {
+  background: green;
+  color: white;
+}
+
+.action-button-disabled {
+  background: white;
+  color: lightgray;
+}
+
+.action-button-text {
+  width: 100%;
+}
+
+.action-button:hover {
+  background: white;
+  color: green;
+  border: 1px solid lightgray;
+}
+
+.action-button > div {
+  margin-bottom: 10px;
+}

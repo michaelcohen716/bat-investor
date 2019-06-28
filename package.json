@@ -3,15 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ethers": "^4.0.31",
+    "moment": "^2.24.0",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "^1.0.0-alpha.25",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-moment": "^0.9.2",
+    "react-scripts": "3.0.1",
+    "web3": "^1.0.0-beta.55",
+    "web3-react": "^5.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write **/*.sol"
   },
   "eslintConfig": {
     "extends": "react-app"

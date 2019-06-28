@@ -1,0 +1,13 @@
+.tab {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.active-tab {
+    color: black;
+}
+
+.inactive-tab {
+    color: lightgray;
+}

@@ -1,24 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Web3Provider, { Connectors } from "web3-react";
+import Home from "./components/Home";
+import "./App.css";
+
+const { InjectedConnector } = Connectors;
+const MetaMask = new InjectedConnector({ supportedNetworks: [4] });
+const connectors = { MetaMask };
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Web3Provider
+        connectors={connectors}
+        libraryName={"ethers.js" | "web3.js" | null}
+      >
+        <Home />
+      </Web3Provider>
     </div>
   );
 }

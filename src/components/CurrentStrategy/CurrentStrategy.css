@@ -1,0 +1,15 @@
+.info-unit {
+  width: 100px;
+}
+
+.head-text {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: lightgray;
+  width: 60px;
+}
+
+.value-text {
+    font-size: 10px;
+    text-transform: capitalize;
+}
